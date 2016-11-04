@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Faker Shop</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="sidebar">
+			<nav class="navbar navbar-default" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="assets/img/LOGO.png" alt=""></a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-sidebar">
+						<li><a role="goso" href="#dashboard"><i class="fa fa-home"></i></a></li>
+						<li><a role="goso" href="#products"><i class="fa fa-shopping-cart"></i></a></li>
+						<li><a role="goso" href="#search"><i class="fa fa-search"></i></a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div class="main-site">
+			<a href="#" class="btn burger-menu" id="burger"><i class="fa fa-bars"></i></a>
+			<div class="main-inner" id="dashboard">
+				<div class="header-home">
+					<h1>Faker Shop</h1>
+					<h5>Numquam quia nesciunt animi rem velit</h5>
+					<div class="btn-wrap">
+						<a href="#" class="btn btn-blue">View More</a>
+					</div>
+				</div>
+			</div>
+			<div class="main-inner" id="products">
+				<div class="product-view">
+					<div class="header-p">
+						<div class="like-section pull-right">
+							<span>2215</span>
+							<a href="#" class="btn btn-link"><i class="fa fa-heart-o"></i></a>
+						</div>
+					</div>
+					<div class="product-thumbnail" id="product-thumbnail">
+						<img src="assets/img/photo6.png" alt="">
+					</div>
+					<div class="product-action">
+						<button class="action action-plus" id="plus"><i class="fa fa-plus"></i></button><button class="action action-min" id="minus"><i class="fa fa-minus"></i></button>
+					</div>
+				</div>
+				<div class="product-info">
+					<div class="header-p">
+						<h2 class="title">Products</h2>
+						<div class="category pull-right">
+							<a href="btn btn-link">living room <i class="fa fa-bed"></i></a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="product-inner">
+						<h2 class="title"><span class="blue-color">WHITE SEAT</span> - OFFICE</h2>
+						<div class="description">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi qui ab labore ipsa quam unde, tempora culpa odio? Voluptas esse excepturi distinctio ad, molestiae debitis atque nesciunt, voluptatum assumenda!</p>
+						</div>
+						<div class="row price">
+							<div class="col-sm-6">
+								<span>cost</span>
+								<span class="large-font blue-color">
+									$65
+								</span>
+								<span class="small-font blocked">$99</span>
+							</div>
+							<div class="col-sm-6">
+								<span>quantity</span>
+								<div class="row">
+									<div class="col-md-5">
+										<input type="number" class="form-control">
+									</div>
+									<div class="col-md-7">
+										
+								<button class="btn btn-blue">add to cart</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="main-inner" id="search">
+				<div class="search-inner">
+					<div class="main-search">
+						<form action="" class="form-search">
+							<input type="text" class="form-control">
+							<span class="help-block">Type a keyword to search some products</span>
+							<button type="reset" name="reset">X</button>
+						</form>
+						<div class="result">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/Photo5.png" alt="" class="thumbnail">
+									<h2 class="title">Black Seat</h2>
+								</div>
+								<div class="col-md-6">
+									<img src="assets/img/Photo.png" alt="" class="thumbnail">
+									<h2 class="title">Red Seat</h2>
+								</div>
+							</div>
+						</div>
+						<div class="result-count">2 Searched results</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right-bar">
+			<div class="inner-nav">
+				<ul>
+					<li><a href="#">Living Room <i class="fa fa-bed"></i></a></li>
+					<li><a href="#">Office <i class="fa fa-briefcase"></i></a></li>
+					<li><a href="#">Kids <i class="fa fa-child"></i></a></li>
+					<li><a href="#">Accessories <i class="fa fa-bicycle"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Custom -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+</html>
